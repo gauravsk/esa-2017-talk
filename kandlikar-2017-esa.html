@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Functional traits and the drivers   of plant species interactions in heterogeneous landscapes</title>
+    <meta charset="utf-8">
+    <meta name="author" content="  Gaurav S. Kandlikar1, Jonathan M. Levine2, Nathan J.B. Kraft1  8 August 2017" />
+    <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
+    <link href="libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="gsk_modifier.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Functional traits and the drivers <br> of plant species interactions in heterogeneous landscapes
+### <i class='fa fa-leaf'></i><br><br>Gaurav S. Kandlikar<sup>1</sup>, Jonathan M. Levine<sup>2</sup>, Nathan J.B. Kraft<sup>1</sup><br><br>8 August 2017
+### <br><br>.footnote[<sup>1</sup> Univ. California Los Angeles <br> <sup>2</sup> ETH Zurich] .footnote2[<i class='fa fa-envelope'></i> <a href="mailto:gkandlikar@ucla.edu">gkandlikar@ucla.edu</a> <br> <i class='fa fa-twitter'></i> gauravsk_<br><i class='fa fa-github'></i> gauravsk]
+
+---
+
+
+
+
+class:inverse
+## Functional traits as predictors of species interactions
+--
+
+
+&lt;img src="img/gaudet-1988.png" width="500px" height="500px" style="display: block; margin: auto;" /&gt;
+.footnote.cite[Gaudet &amp; Keddy (1988) Nature]
+
+---
+class:inverse
+
+## Trait dispersion patterns across spatial scales
+
+--
+
+.pull-left[![](img/swenson-2007.png)]
+.pull-right[![](img/cornwell-2009.png)]
+
+.footnote.cite[Swenson &amp; Enquist (2007) Am J. Botany; Conwell &amp; Ackerly (2009) Ecol. Monographs]
+
+---
+
+class:inverse
+
+## Trait patterns are imperfect proxies for ecological patterns
+
+--
+
+![](img/adler-2013.png)
+.footnote.cite[Adler et al. 2013 Ecol. Letters]
+
+---
+class:inverse
+
+## Parameterizing annual plant demography
+
+`$$\Large\frac{N_{t+1,x,j}}{N_{t, x, j}} = (1-g_{x,j})*s_j+g_{x,j}*\frac{\lambda_{x,j}}{1+r_j*\eta_x}$$`
+
+.footnote.cite[Chesson (2000) Theor. Pop. Biol, Levine &amp; HilleRisLambers (2007) Nature]
+
+--
+
+| Parameter| Description |
+| :--------: | :--------------------------- |
+| `\(\large g_{x,j}\)` |  Gerimation rate at site `\(x\)`|
+| `\(\large s_j\)`  | Seedbank survival rate|  
+| `\(\large \lambda_{x,j}\)` | Seed production of species at site `\(x\)` in the absense of competitors|
+| `\(\large r_j\)` |  Response of species to competitors|  
+| | |  
+| `\(\large \eta_x\)` |  Size of competitive community at site `\(x\)`|  
+
+
+
+---
+
+class:inverse
+
+
+## Spatial storage effects can promote species coexistence
+
+
+The spatial storage effect can stabilize species coexistence given three conditions:
+
+-  Species-specific environmental responses
+-  Covariance between environmental response and competition   
+-  Buffered population growth  
+
+.footnote.cite[Chesson (2000) Theor. Pop. Biol]
+
+--
+
+
+
+The contribution of storage effects `\(\Delta I\)` follows
+
+
+`$$\Large \Delta I \sim (1-\text{correlation in environmental response})$$`
+
+
+---
+class:inverse
+## Correlated environmental responses
+
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
+
+
+---
+class:inverse
+## Correlated environmental responses
+
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+class:inverse
+## Correlated environmental responses
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /&gt;
+---
+class:inverse
+## Correlated environmental responses
+
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-5-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+class:inverse
+## Which functional traits drive correlated environmental responses?
+
+--
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-6-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+class:inverse
+## Which functional traits drive correlated environmental responses?
+
+&lt;img src="kandlikar-2017-esa_files/figure-html/unnamed-chunk-7-1.png" style="display: block; margin: auto;" /&gt;
+
+
+---
+class:inverse
+
+## Questions
+
+- Q1: How correlated are species pairs in their environmental responses?  
+
+- Q2: Do functionally dissimilar species pairs tend to be less correlated in their environmental responses?
+
+---
+class:inverse, middle
+
+## Study system: plant species
+
+![](img/sedgwick-species.png) 
+ 
+---
+
+class:inverse
+
+## Study system: environment
+
+![](img/map-to-show.png)
+
+---
+
+class: top, inverse 
+
+## Study system: experimental setup
+
+![](img/exp-setup.png)
+--
+
+`$$\Large\boxed{\frac{N_{t+1,x,j}}{N_{t, x, j}}} = (1-\boxed{g_{x,j}})*s_j+g_{x,j}*\frac{\boxed{\lambda_{x,j}}}{1+\alpha_{x}*\eta_x}$$`
+
+---
+class:inverse
+
+&lt;img src="img/plots.JPG" width="500px" height="600px" style="display: block; margin: auto;" /&gt;
+
+.footnote.cite[Photo: Nathan Kraft]
+---
+class:inverse
+
+
+## Q1 results: Species-specific environmental responses
+
+--
+
+![](img/results-germ-for-slides.png)
+
+
+.footnote.cite[Preliminary results]
+
+
+---
+class:inverse
+## Q1 results: Species-specific environmental responses
+
+![](img/results-lseed-for-slides.png)
+.footnote.cite[Preliminary results]
+
+---
+class:inverse
+## Q1 results: Species-specific environmental responses
+
+![](img/results-popgr-for-slides.png)
+.footnote.cite[Preliminary results]
+
+---
+class:inverse
+
+## Q2: Functional correlates of demographic responses
+
+--
+
+.pull-left[- Leaf traits  
+  - Leaf size
+  - Specific leaf area
+  - Leaf dry matter content
+  - Leaf drought tolerance (Osmotic potential)
+  
+- Seed mass  
+- Specific root length  
+
+- Whole plant traits
+  - Maximum height
+  - Canopy shape index (ordinating species from primarily vertical growth to prostrate growth)]
+
+.pull-right[![](img/bhl-botany-fig-scaled.png)]
+
+.footnote.cite[Image from *Elements of Botany*, Asa Gray]
+---
+
+class:inverse
+
+## Q2 results: Functional correlates of demographic responses
+
+![](img/results-trait-correlations.png)
+.footnote.cite[Preliminary results]
+
+---
+class:inverse
+
+## Q2 results: Functional correlates of demographic responses  
+
+![](img/results-trait-pca2.png)
+.footnote.cite[Preliminary results]
+
+---
+class:inverse
+
+## Q2 results: Functional correlates of demographic responses  
+
+![](img/results-pc-correlations.png)
+.footnote.cite[Preliminary results]
+
+---
+class:inverse
+## Q2 results: Species vary in their germination response to soil texture and depth
+.footnote.cite[Preliminary results]
+
+--
+
+.pull-left[![](img/results-environmental-nmds.png)]
+
+.pull-right[![](img/results-germslope2-v-seedmass.png)]
+
+---
+class:inverse
+
+## Summary 
+
+In our system, ...
+
+- Most species pairs tend to have positive but imperfect correlations in environmental response  
+
+- Seed and whole-plant functional traits, but not leaf economics traits, may serve as predictors of correlation in environmental response  
+
+
+---
+class:inverse
+
+## Next steps 
+
+
+- Predicting demographic correlation from multi-trait models  
+
+- Testing whether plasticity in functional traits influences demographic responses  
+
+--
+
+- Testing whether turnover in soil bacterial and fungal communities explain variation in plant performance and species interactions in our system 
+
+---
+
+class:inverse
+
+## Take-home messages 
+
+- The functional trait approach holds tremendous value for plant ecologists  
+
+- The choice of functional traits should come from an understanding of the of demographic drivers of community dynamics
+
+- Importance of functional traits may depend on scale of the question  
+
+
+.footnote.cite[Huang et al. (2016) Ecology, Kraft et al. (2015) PNAS]
+
+
+---
+
+
+background-image: url(img/sedgwick2.jpg)
+background-position: center
+background-size: 125%
+class: top, inverse 
+
+## Thank you! 
+
+.pull-left[
+- Kraft Lab at UCLA:
+  - Mary Van Dyke
+  - Andy Kleinhesselink
+
+- Levine Lab at ETH Zurich:
+  - Oscar Godoy
+  - Will Petry   
+  - Mirjam von R&amp;uuml;ette
+  - Lindsey Rice
+
+- Funding: 
+  - NSF DEB Award #1644641  
+  - NSF Graduate Research Fellowship Program]
+
+.pull-right[Get in touch!   
+&lt;i class='fa fa-envelope'&gt;&lt;/i&gt; gkandlikar@ucla.edu   
+&lt;i class='fa fa-twitter'&gt;&lt;/i&gt; gauravsk_   
+&lt;i class='fa fa-github'&gt;&lt;/i&gt; gauravsk]
+
+.footnote.cite[rmd source available at https://github.com/gauravsk/esa-2017-talk]
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

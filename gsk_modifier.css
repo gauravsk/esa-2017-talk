@@ -1,0 +1,104 @@
+.title-slide {
+  background-image: url(img/sedgwick5.png);
+  background-size: cover;
+  opacity: 1;
+}
+
+.title-slide h1 {
+  color: #ffffff;
+  margin-top: -20px;
+      font-size: 64px;
+}
+.title-slide h2 {
+  color: #ecede8; 
+}
+
+.title-slide .remark-footnote {
+  color: #ecede8; 
+  font-size: 2;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+.footnote {
+  text-align: right;
+  position: absolute;
+  bottom: 1em;
+  right:-3em;
+}
+.footnote2 {
+  text-align: left;
+  position: absolute;
+  bottom: 1em;
+  left:1em;
+}
+.cite {
+  font-size:.65em;
+  color:#ecede8;
+  right:3em;
+
+}
+
+a {
+  color:#ecede8;
+}
+
+
+.large { 
+  font-size: 130%;  
+  color: #ffffff;
+}
+
+p {
+    font-size: 125%;
+    font-family: serif;
+    color: #ffffff;
+}
+
+.MathJax_Display{
+  font-size:150%;
+}
+
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
+}
+
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+
+#righter {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+  
+}
+
+
+.remark-slide-number {
+  font-size: 10pt;
+  margin-bottom: -11.6px;
+  margin-right: 10px;
+  color: #FFFFFF; /* white */
+  opacity: 0; /* default: 0.5 */
+}
+
+ul
+{
+    color: white;
+    font-size: 100%;
+}
